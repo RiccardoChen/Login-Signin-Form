@@ -123,6 +123,7 @@ a:hover{
     font-weight: 400;
     font-size: 1.125rem;
     cursor: pointer;
+    border: none;
 }
 .button:hover{
     background: var(--btn-hover-color) ;
@@ -142,4 +143,15 @@ a:hover{
 
 .signin-form{
     gap: 20px;
+}
+
+input:focus:invalid{
+    border: 1px solid red;
+    outline: none;
+}
+
+input:focus:valid{
+    border: 1px solid green;
+    outline: none;
+
 }
