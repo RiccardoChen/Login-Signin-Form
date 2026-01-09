@@ -96,6 +96,7 @@ img{
     border-radius: 10px;
     border: none;
     padding: 10px;
+
 }
 
 .form__field input:focus{
@@ -135,7 +136,7 @@ a:hover{
     margin-top: 4px;
 }
 
-.signin{
+.signin-link{
     margin-top: 10px;
     font-size: .9rem;
     font-weight: 400;

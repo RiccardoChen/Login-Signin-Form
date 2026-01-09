@@ -10,6 +10,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Momo+Signature&family=Momo+Trust+Display&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+NZ+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Notch:wght@200..700&family=Stack+Sans+Text:wght@200..700&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp">
+
+<script src="login.js" defer></script>
 </head>
 <body>
 
@@ -19,15 +21,15 @@
             <h2>LOG <span class="highlight">IN</span></h2>
             <div class="form__field">
                 <label for="username">Username:</label>
-                <input id="username" name="username" type="text" placeholder="Username" required></input>
+                <input id="username" name="username" type="text" placeholder="Username" minlength="10" required></input>
             </div>
             <div class="form__field">
                 <label for="password">Password:</label>
-                <input id="password" name="password" type="password" placeholder="Password" required></input>
+                <input id="password" name="password" type="password" placeholder="Password" minlength="8" required></input>
                 <a class="forgetPass" href="#" target="_blank">Forget Passowrd?</a>
             </div>
             <button class="button" type="submit">Login</button>
-            <div class="signin">
+            <div class="signin-link">
                 Don't have account? <a href="signin.html">Register here</a>
             </div>
         </form>
