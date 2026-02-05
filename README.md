@@ -46,6 +46,18 @@ python -m http.server 8000
 
 3. Try submitting the forms. The included JS files provide basic client-side checks and example behaviors (this project does not include a backend — form submissions are for demonstration only).
 
-## Contact
+## License
 
-For questions or suggestions, open an issue or contact the repository owner: [RiccardoChen](https://github.com/RiccardoChen).
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+Copyright&copy; 2026 - Riccardo Chen
